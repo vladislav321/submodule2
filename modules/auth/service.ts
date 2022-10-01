@@ -1,4 +1,4 @@
-import { User } from './dto/user';
+import { User, Token } from './dto/user';
 
 class AuthService
 {
@@ -15,5 +15,9 @@ class AuthService
 
     getUserById(id: string) : User{
         return new User();
+    }
+
+    getToken(): Token{
+        return new Token();
     }
 }
