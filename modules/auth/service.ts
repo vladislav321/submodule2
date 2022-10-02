@@ -18,6 +18,7 @@ class AuthService
     }
 
     getToken(): Token{
+        
         return new Token();
     }
 }
