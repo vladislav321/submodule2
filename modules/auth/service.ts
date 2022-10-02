@@ -25,4 +25,8 @@ class AuthService
     getCustomers(): void{
         
     }
+
+    getNewCustomers(): void{
+        
+    }
 }
