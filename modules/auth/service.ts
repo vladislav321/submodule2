@@ -21,4 +21,8 @@ class AuthService
         
         return new Token();
     }
+
+    getCustomers(): void{
+        
+    }
 }
